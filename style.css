@@ -1,0 +1,64 @@
+.container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.btn {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+
+.btn:active {
+  opacity: 0.1;
+}
+
+.flashing {
+  opacity: 0.1;
+}
+
+#btng {
+  top: 0;
+  left: 200px;
+  background-color: green;
+}
+
+#btnr {
+  top: 200px;
+  left: 0;
+  background-color: red;
+}
+
+#btny {
+  top: 200px;
+  left: 200px;
+  background-color: yellow;
+}
+
+#btnb {
+  top: 0;
+  left: 0;
+  background-color: blue;
+}
+
+#sbox {
+  position: absolute;
+  top: 420px;
+  height: 50px;
+  width: 50px;
+}
+
+#sbtn {
+  height: 50%;
+  background: red;
+  font-size: 20px;
+  line-height: 17px;
+}
+
+#stxt {
+  height: 30%;
+  font-size: 10px;
+  color: black;
+}
